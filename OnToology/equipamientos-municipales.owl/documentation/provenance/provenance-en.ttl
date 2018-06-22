@@ -1,0 +1,11 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructura/equipamiento-municipal> a prov:Entity;
+	 dc:title "Vocabulario para la descripción de equipamientos municipales";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.
+:agent0 a prov:Agent; foaf:name "Pablo Fernández Díaz (Universidad Politécnica de Madrid)".
+:agent1 a prov:Agent; foaf:name "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid)".
