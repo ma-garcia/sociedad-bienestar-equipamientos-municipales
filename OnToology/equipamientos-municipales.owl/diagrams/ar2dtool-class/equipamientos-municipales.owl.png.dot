@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#TipoEquipamiento" "schema:PostalAddress" "schema:ContactPoint" "-169f23b1:1642707b09f:-7ffc" "schema:Thing" "http://www.opengis.net/ont/geosparql" "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/Servicio" "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" "-169f23b1:1642707b09f:-7ff7" "skos:OrderedCollection" "skos:Collection" "skos:ConceptScheme" "skos:Concept" "geo:Feature" "geo:Geometry" "geo:SpatialObject" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "642bacdf:16427176ffb:-7ffc" "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#TipoEquipamiento" "schema:PostalAddress" "schema:ContactPoint" "schema:Thing" "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/Servicio" "http://www.opengis.net/ont/geosparql" "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" "642bacdf:16427176ffb:-7ff7" "skos:OrderedCollection" "skos:Collection" "skos:ConceptScheme" "skos:Concept" "geo:Feature" "geo:Geometry" "geo:SpatialObject" ; /*classes style*/
 	"schema:email" -> "schema:Text" [ label = "schema:rangeIncludes" ];
 	"schema:email" -> "schema:Person" [ label = "schema:domainIncludes" ];
 	"schema:email" -> "schema:Organization" [ label = "schema:domainIncludes" ];
@@ -121,16 +121,16 @@ node [shape = rectangle, color="orange"]; "http://vocab.linkeddata.es/datosabier
 	"skos:narrowerTransitive" -> "skos:semanticRelation" [ label = "rdfs:subPropertyOf" ];
 	"schema:alternateName" -> "schema:Text" [ label = "schema:rangeIncludes" ];
 	"schema:alternateName" -> "schema:Thing" [ label = "schema:domainIncludes" ];
-	"NULL" -> "-169f23b1:1642707b09f:-7ffa" [ label = "rdf:rest" ];
 	"NULL" -> "base:TEquip" [ label = "owl:hasValue" ];
 	"NULL" -> "skos:Concept" [ label = "rdf:first" ];
 	"NULL" -> "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#TipoEquipamiento" [ label = "rdf:first" ];
-	"NULL" -> "-169f23b1:1642707b09f:-7ff5" [ label = "rdf:rest" ];
-	"NULL" -> "-169f23b1:1642707b09f:-7ff8" [ label = "rdf:rest" ];
-	"NULL" -> "-169f23b1:1642707b09f:-7ff6" [ label = "owl:unionOf" ];
+	"NULL" -> "642bacdf:16427176ffb:-7ffa" [ label = "rdf:rest" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "642bacdf:16427176ffb:-7ff6" [ label = "owl:unionOf" ];
+	"NULL" -> "642bacdf:16427176ffb:-7ff8" [ label = "rdf:rest" ];
+	"NULL" -> "642bacdf:16427176ffb:-7ff5" [ label = "rdf:rest" ];
 	"NULL" -> "skos:Collection" [ label = "rdf:first" ];
-	"NULL" -> "-169f23b1:1642707b09f:-7ffb" [ label = "owl:intersectionOf" ];
+	"NULL" -> "642bacdf:16427176ffb:-7ffb" [ label = "owl:intersectionOf" ];
 	"NULL" -> "skos:inScheme" [ label = "owl:onProperty" ];
 	"schema:servicePhone" -> "schema:ContactPoint" [ label = "schema:rangeIncludes" ];
 	"geo:defaultGeometry" -> "geo:hasGeometry" [ label = "rdfs:subPropertyOf" ];
@@ -248,12 +248,12 @@ node [shape = rectangle, color="orange"]; "http://vocab.linkeddata.es/datosabier
 	"geo:Geometry" -> "rdfs:Literal" [ label = "geo:hasSerialization" ];
 	"geo:SpatialObject" -> "geo:SpatialObject" [ label = "geo:ehDisjoint" ];
 	"schema:ContactPoint" -> "rdf:PlainLiteral" [ label = "http://schema.org/ContactPoint#telephone" ];
-	"http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" -> "-169f23b1:1642707b09f:-7ffc" [ label = "base:tipoEquipamiento" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" -> "642bacdf:16427176ffb:-7ffc" [ label = "base:tipoEquipamiento" ];
 	"geo:SpatialObject" -> "geo:SpatialObject" [ label = "geo:sfWithin" ];
 	"geo:SpatialObject" -> "geo:SpatialObject" [ label = "geo:sfDisjoint" ];
 	"skos:Concept" -> "skos:ConceptScheme" [ label = "skos:topConceptOf" ];
 	"schema:PostalAddress" -> "xsd:string" [ label = "schema:addressRegion" ];
-	"skos:Collection" -> "-169f23b1:1642707b09f:-7ff7" [ label = "skos:member" ];
+	"skos:Collection" -> "642bacdf:16427176ffb:-7ff7" [ label = "skos:member" ];
 	"geo:SpatialObject" -> "geo:SpatialObject" [ label = "geo:rcc8ec" ];
 	"geo:SpatialObject" -> "geo:SpatialObject" [ label = "geo:rcc8eq" ];
 	"geo:SpatialObject" -> "geo:SpatialObject" [ label = "geo:sfTouches" ];
